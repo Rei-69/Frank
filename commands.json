@@ -1,0 +1,39 @@
+
+[
+  {
+    "name": "kick",
+    "description": "Kicks the specified user from the server.",
+    "options": [
+      {
+        "name": "user",
+        "description": "The user to kick.",
+        "type": 6, 
+        "required": true
+      }
+    ]
+  },
+  {
+    "name": "ban",
+    "description": "Bans the specified user from the server.",
+    "options": [
+      {
+        "name": "user",
+        "description": "The user to ban.",
+        "type": 6, 
+        "required": true
+      }
+    ]
+  },
+  {
+    "name": "purge",
+    "description": "Deletes the specified number of messages from the current channel.",
+    "options": [
+      {
+        "name": "amount",
+        "description": "The number of messages to delete.",
+        "type": 4, 
+        "required": true
+      }
+    ]
+  }
+]
