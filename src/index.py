@@ -13,7 +13,7 @@ TOKEN = os.getenv('TOKEN')
 
 @client.event
 async def on_ready():
-    print('Bot is ready!')
+    print('Turned ON!!!')
 
     # Streaming status
     await client.change_presence(activity=discord.Streaming(name='Cooking', url='https://www.youtube.com/watch?v=dQw4w9WgXcQ'))
