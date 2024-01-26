@@ -18,7 +18,7 @@ async def on_ready():
     # Streaming status
     await client.change_presence(activity=discord.Streaming(name='Cooking', url='https://www.youtube.com/watch?v=dQw4w9WgXcQ'))
 
-# Event handlers and bot functionality here
+# Event handlers and bot functionality
 @client.event
 async def on_message(message):
     if message.author == client.user:
